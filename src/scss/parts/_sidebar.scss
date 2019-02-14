@@ -17,6 +17,11 @@
         width: 30%;
     }
 
+    @include mq('tablet-small', max) {
+        width: 40%;
+        padding: 0 1rem;
+    }
+
     // Wrapper
     &__wrapper {
         display: flex;
@@ -32,9 +37,17 @@
         width: 100%;
         text-align: center;
 
+        @include mq('tablet-small', max) {
+            padding: .5rem 0;
+        }
+
         svg {
             width: 60%;  
             height: 2rem;
+
+            @include mq('tablet-small', max) {
+                width: 100%;
+            }
         }
     }
 
@@ -43,6 +56,19 @@
         display: flex;
         align-items: center;
         padding: 3rem 0;
+
+        @include mq('tablet-small', max) {
+            padding: 1rem 0;
+        }
+
+        @include mq('tablet-small', max) {
+            padding: 1rem 0;
+        }
+
+        @include mq('phone-wide', max) {
+            flex-direction: column;
+            padding: 0 0 1rem;
+        }
     }
 
     // Image
@@ -53,11 +79,24 @@
         background-size: cover;
         border: 2px solid $color-white;
         border-radius: 50%;
+
+        @include mq('tablet-small', max) {
+            width: 2.5rem;
+            height: 2.5rem;
+        }
+
+        @include mq('phone-wide', max) {
+            margin-bottom: 1rem;
+        }
     }
 
     // Text
     &__text {
         margin-left: .8rem;
+
+        @include mq('phone-wide', max) {
+            margin: 0;
+        }
     }
 
     // Name
@@ -66,6 +105,10 @@
         line-height: 0.8rem;
         font-weight: 400;
         color: $color-white;
+
+        @include mq('tablet-small', max) {
+            font-size: 0.7rem;
+        }
     }
 
     // Followers
@@ -77,6 +120,10 @@
         @include mq('tablet', max) {
             font-size: .7rem;
         }
+
+        @include mq('tablet-small', max) {
+            font-size: 0.5rem;
+        }
     }
 
     // Footer
@@ -87,6 +134,10 @@
         justify-content: center;
         padding: 2rem 0;
         border-top: 1px solid rgba($color-black, .1);
+
+        @include mq('tablet-small', max) {
+            padding: .5rem 0;
+        }
     }
 
     // Link
@@ -100,6 +151,11 @@
 
         &:hover {
             text-decoration: underline;
+        }
+
+        @include mq('tablet-small', max) {
+            margin-bottom: 0.5rem;
+            font-size: .5rem;
         }
     }
 }

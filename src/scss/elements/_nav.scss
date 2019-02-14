@@ -1,7 +1,6 @@
 // Navigation
 
 .nav {
-    margin-bottom: 10.5rem;
 
     &__item {
         display: flex;
@@ -12,6 +11,10 @@
         &:hover {
             background: rgba($color-gray, .2);
             border-radius: 5px;
+        }
+
+        @include mq('tablet-small', max) {
+            padding: .2rem 0;
         }
     }
 
@@ -30,5 +33,9 @@
         line-height: .8rem;
         color: $color-white;
         text-decoration: none;
+
+        @include mq('tablet-small', max) {
+            font-size: .7rem;
+        }
     }
 }

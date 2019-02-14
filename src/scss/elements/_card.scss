@@ -8,6 +8,10 @@
         width: 44%;
     }
 
+    @include mq('tablet-small', max) {
+        width: 100%;
+    }
+
     // Info
     &__info {
         padding: 1rem;

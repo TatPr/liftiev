@@ -17,6 +17,14 @@
         @include mq('tablet', max) {
             padding: 5rem 1.5rem 3rem 6rem;
         }
+
+        @include mq('tablet-small', max) {
+            padding: 3rem 1.5rem 1rem 8.5rem;
+        }
+
+        @include mq('phone-wide', max) {
+            padding: 3rem 1.5rem 1rem 6rem;
+        }
     }
 
     // Header
@@ -24,6 +32,11 @@
         display: flex;
         justify-content: space-between;
         align-items: center;
+
+        @include mq('tablet-small', max) {
+            flex-wrap: wrap;
+            justify-content: center;
+        }
     }
 
     // Login
@@ -31,6 +44,13 @@
         font-size: 1.5rem;
         font-weight: 700;
         color: $color-green;
+
+        @include mq('tablet-small', max) {
+            display: block;
+            width: 100%;
+            text-align: center;
+            margin-bottom: 1rem;
+        }
     }
 
     // Btn
@@ -64,6 +84,12 @@
         border-radius: 3px;
         background: transparent;
         outline: none;
+
+        @include mq('tablet-small', max) {
+            display: block;
+            margin: 0 auto;
+            margin-bottom: 1rem;
+        }
 
         &::after {
             display: none;
