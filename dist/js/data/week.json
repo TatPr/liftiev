@@ -1,0 +1,92 @@
+{
+    "users": [
+        {
+            "class": "vine",
+            "social": "Vine",
+            "number": "3,456",
+            "text": "followers", 
+            "place": "-1",
+            "rotate": "down",
+            "arrow": "arrow",
+            "image_url": "img/face1.jpg",
+            "mail": "@abhisek.daas" 
+        },
+        {
+            "class": "google",
+            "social": "Google+",
+            "number": "2,897",
+            "text": "followers",
+            "place": "+2",
+            "rotate": "up",
+            "arrow": "arrow",
+            "image_url": "img/face2.jpg",
+            "mail": "@wholetthedasout" 
+        },
+        {
+            "class": "snap",
+            "social": "Snapchat",
+            "number": "4,189",
+            "text": "followers",
+            "place": "+9",
+            "rotate": "up",
+            "arrow": "arrow",
+            "image_url": "img/face3.jpg",
+            "mail": "@wholetthedasout" 
+        },
+        {
+            "class": "linked",
+            "social": "LinkedIn",
+            "number": "5,416",
+            "text": "followers",
+            "place": "+22",
+            "rotate": "up",
+            "arrow": "arrow",
+            "image_url": "img/face4.jpg",
+            "mail": "@abhisekd" 
+        },
+        {
+            "class": "youtube",
+            "social": "YouTube",
+            "number": "4,130",
+            "text": "followers",
+            "place": "+12",
+            "rotate": "down",
+            "arrow": "arrow",
+            "image_url": "img/face5.jpg",
+            "mail": "@TheAbhisekD" 
+        },
+        {
+            "class": "insta",
+            "social": "Instagram",
+            "number": "11,701",
+            "text": "snap score",
+            "place": "",
+            "rotate": "",
+            "arrow": "",
+            "image_url": "img/face2.jpg",
+            "mail": "@abhisekd" 
+        },
+        {
+            "class": "twitter",
+            "social": "Twitter",
+            "number": "2,243",
+            "text": "followers",
+            "place": "",
+            "rotate": "",
+            "arrow": "",
+            "image_url": "img/face3.jpg",
+            "mail": "@+AbhisekDas" 
+        },
+        {
+            "class": "facebook",
+            "social": "Facebook",
+            "number": "2,463",
+            "text": "loops",
+            "place": "",
+            "rotate": "",
+            "arrow": "",
+            "image_url": "img/face3.jpg",
+            "mail": "@12352178912" 
+        }
+    ]
+}
