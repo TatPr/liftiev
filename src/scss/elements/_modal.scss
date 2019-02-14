@@ -25,6 +25,10 @@
         background: $color-white;
         text-align: right;
         @include centered;
+
+        @include mq('tablet-wide', max) {
+            width: 70%;
+        }
     }
 
     // Close
@@ -35,6 +39,7 @@
         border: none;
         transform: rotate(45deg);  
         outline: none;  
+        background: $color-white;
     }
 
     // Icon

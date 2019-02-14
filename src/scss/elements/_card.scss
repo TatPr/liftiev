@@ -4,6 +4,10 @@
     margin-bottom: 1rem;
     width: 21%;
 
+    @include mq('tablet-wide', max) {
+        width: 44%;
+    }
+
     // Info
     &__info {
         padding: 1rem;

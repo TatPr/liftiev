@@ -8,6 +8,8 @@
 
 body {
     font-family: $font-roboto;
+    background: $color-gray;
+    overflow-x: hidden;
 }
 
 img {
