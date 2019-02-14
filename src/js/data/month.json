@@ -8,7 +8,7 @@
             "place": "+1",
             "rotate": "up",
             "arrow": "arrow",
-            "image_url": "../img/face3.jpg",
+            "image_url": "img/face3.jpg",
             "mail": "@abhisek.daas" 
         },
         {
@@ -19,7 +19,7 @@
             "place": "+1",
             "rotate": "up",
             "arrow": "arrow",
-            "image_url": "../img/face1.jpg",
+            "image_url": "img/face1.jpg",
             "mail": "@wholetthedasout" 
         },
         {
@@ -30,7 +30,7 @@
             "place": "-1",
             "rotate": "down",
             "arrow": "arrow",
-            "image_url": "../img/face2.jpg",
+            "image_url": "img/face2.jpg",
             "mail": "@wholetthedasout" 
         },
         {
@@ -41,7 +41,7 @@
             "place": "+19",
             "rotate": "up",
             "arrow": "arrow",
-            "image_url": "../img/face4.jpg",
+            "image_url": "img/face4.jpg",
             "mail": "@abhisekd" 
         },
         {
@@ -52,7 +52,7 @@
             "place": "+12",
             "rotate": "up",
             "arrow": "arrow",
-            "image_url": "../img/face3.jpg",
+            "image_url": "img/face3.jpg",
             "mail": "@TheAbhisekD" 
         },
         {
@@ -63,7 +63,7 @@
             "place": "",
             "rotate": "",
             "arrow": "",
-            "image_url": "../img/face2.jpg",
+            "image_url": "img/face2.jpg",
             "mail": "@abhisekd" 
         },
         {
@@ -74,7 +74,7 @@
             "place": "",
             "rotate": "",
             "arrow": "",
-            "image_url": "../img/face3.jpg",
+            "image_url": "img/face3.jpg",
             "mail": "@+AbhisekDas" 
         },
         {
@@ -85,7 +85,7 @@
             "place": "",
             "rotate": "",
             "arrow": "",
-            "image_url": "../img/face3.jpg",
+            "image_url": "img/face3.jpg",
             "mail": "@12352178912" 
         }
     ]
