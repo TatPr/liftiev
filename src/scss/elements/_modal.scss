@@ -10,11 +10,13 @@
     z-index: 100;
     @include ease;
 
+    // Show Modal
     &.show {
         visibility: visible;
         opacity: 1;    
     }
 
+    // Form
     &__form {
         position: relative;
         width: 40%;
@@ -25,6 +27,7 @@
         @include centered;
     }
 
+    // Close
     &__close {
         position: absolute;
         right: 1rem;
@@ -34,6 +37,7 @@
         outline: none;  
     }
 
+    // Icon
     &__icon {
         width: 1rem;
         height: 1rem;
@@ -46,22 +50,26 @@
         text-align: left;
     }
 
+    // Title
     &__title {
         margin-bottom: 1.5em;
     }
 
+    // Subtitle
     &__subtitle {
         display: block;
         margin-bottom: 1.5rem;
     }
 
+    // Label
     &__label {
         display: block;
         margin-bottom: .3em;
         font-weight: 700;
     }
 
-    input {
+    // Input
+    &__input {
         width: 100%;
         padding: .5rem 1rem;
         border-radius: 5px;
@@ -74,6 +82,7 @@
         }
     }
 
+    // Btn
     &__btn {
         padding: .8rem 2rem;
         border-radius: 5px;

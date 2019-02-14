@@ -30,15 +30,19 @@ controlModel();
 
 // Dashboard Controllers
 elements.dashboardTabsContainer.addEventListener('click', (e) => {
-    // Active Class
-    const tabs = Array.prototype.slice.call(elements.dashboardTabs);
-    tabs.forEach(elem => {
-        elem.classList.remove('active');
-    });
-    e.target.classList.add('active');
+    e.preventDefault();
 
-    // Get Data from JSON
-    controlModel(e.target.dataset.name);
+    // Active Class
+    if (e.target.className == 'dashboard__tab') {
+        const tabs = Array.prototype.slice.call(elements.dashboardTabs);
+        tabs.forEach(elem => {
+        elem.classList.remove('active');
+        });
+        e.target.classList.add('active');
+
+        // Get Data from JSON
+        controlModel(e.target.dataset.name);
+    }
 });
 
 // Modal Window

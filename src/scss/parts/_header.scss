@@ -1,11 +1,14 @@
 // Header
 
 .header {
+
+    // Wrapper
     &__wrapper {
         padding: 2rem 2.5rem;
         text-align: right;
     }
 
+    // Icon
     &__icon {
         position: relative;
         display: inline-block;
@@ -19,6 +22,7 @@
         }
     }
 
+    // Note
     &__note {
         position: absolute;
         top: -.5rem;

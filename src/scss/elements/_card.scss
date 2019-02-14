@@ -4,6 +4,7 @@
     margin-bottom: 1rem;
     width: 21%;
 
+    // Info
     &__info {
         padding: 1rem;
         border-radius: 10px;
@@ -45,6 +46,7 @@
         }
     }
 
+    // Social
     &__social {
         svg {
             width: 1rem;
@@ -52,10 +54,12 @@
         }
     }
 
+    // Numbers
     &__numbers {
         padding: 1.2rem 0;
     }
 
+    // Number
     &__number {
         display: block;
         font-family: $font-open;
@@ -64,6 +68,7 @@
         color: $color-white;
     }
 
+    // Followers
     &__followers {
         text-transform: uppercase;
         font-weight: 300;
@@ -72,6 +77,7 @@
         color: rgba($color-white, .8);
     }
 
+    // Place
     &__place {
         text-align: right;
 
@@ -82,6 +88,7 @@
         }
     }
 
+    // Icon
     &__icon {
         width: .5rem;
         height: .7rem;
@@ -91,22 +98,26 @@
         }
     }
 
+    // User
     &__user {
         padding: .5rem 0;
         display: flex;
         align-items: center;
     }
 
+    // Text
     &__text {
         margin-left: .5rem;
     }
 
+    // Name
     &__name {
         font-size: .8rem;
         line-height: 0.7rem;
         color: rgba($color-gray--dark, .5);
     }
 
+    // Mail
     &__mail {
         font-size: 0.8rem;
     }

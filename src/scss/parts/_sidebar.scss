@@ -11,6 +11,7 @@
     margin: 0;
     background: $sidebar-gradient;
 
+    // Logo
     &__logo {
         display: block;
         padding: 1.5rem 0;
@@ -23,12 +24,14 @@
         }
     }
 
+    // User
     &__user {
         display: flex;
         align-items: center;
         padding: 3rem 0;
     }
 
+    // Image
     &__img {
         width: 3.5rem;
         height: 3.5rem;
@@ -38,10 +41,12 @@
         border-radius: 50%;
     }
 
+    // Text
     &__text {
         margin-left: .8rem;
     }
 
+    // Name
     &__name {
         font-size: 1rem;
         line-height: 0.8rem;
@@ -49,12 +54,14 @@
         color: $color-white;
     }
 
+    // Followers
     &__followers {
         font-size: 0.8em;
         font-weight: 700;
         color: rgba($color-black, .5);
     }
 
+    // Footer
     &__footer {
         flex-shrink: 1;
         display: flex;
@@ -64,6 +71,7 @@
         border-top: 1px solid rgba($color-black, .1);
     }
 
+    // Link
     &__link {
         width: 33.33%;
         text-align: center;

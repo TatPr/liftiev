@@ -8,10 +8,13 @@
     <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta charset="utf-8">
+
     <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:700|Roboto:300,400,700" rel="stylesheet">
-  <link href="style.css" rel="stylesheet"><link href="style.css" rel="stylesheet"></head>
-</html>
+    <link href="style.css" rel="stylesheet"><link href="style.css" rel="stylesheet"></head>
+
 <body>
+
+<!-- Modal -->
 <div class="modal js-modal">
   <div class="modal__form">
     <button class="modal__close js-close-btn">
@@ -21,10 +24,13 @@
     </button>
     <h3 class="modal__title">Add Social Profile</h3><span class="modal__subtitle">Add new social profile for tracking</span>
     <label class="modal__label" for="#social">URL</label>
-    <input type="text" placeholder="https://twitter.com/username" id="social">
+    <input class="modal__input" type="text" placeholder="https://twitter.com/username" id="social">
     <button class="modal__btn">Lockup</button>
   </div>
 </div>
+<!-- End Model -->
+
+<!-- Header -->
 <header class="header">
   <div class="header__wrapper">
     <button class="header__icon header__icon--notific">
@@ -40,6 +46,9 @@
     </button>
   </div>
 </header>
+<!-- End Header -->
+
+<!-- Sidebar -->
 <aside class="sidebar"><a class="sidebar__logo" href="#">
     <svg>
       <use xlink:href="#logo"></use>
@@ -93,6 +102,9 @@
     <div class="sidebar__footer"><a class="sidebar__link" href="#">About            </a><a class="sidebar__link" href="#">Terms            </a><a class="sidebar__link" href="#">Privacy            </a><a class="sidebar__link" href="#">Help            </a><a class="sidebar__link" href="#">Report            </a></div>
   </div>
 </aside>
+<!-- End Sidebar -->
+
+<!-- Main -->
 <main>
   <section class="dashboard">
     <div class="dashboard__wrapper">
@@ -107,45 +119,47 @@
         <button class="dashboard__tab" data-name="month">Month</button>
       </div>
 
+      <!-- Dashboard List -->
       <div class="dashboard__list" id="js-dashboard">
-
-        
 
       </div>
     </div>
   </section>
 </main>
+<!-- End Dashboard -->
 
-<script id="dayTemplate" type="text/x-handlebars-template">
-    {{#each users}}
-        <div class="card">
-                <div class="card__info {{class}}">
-                  <div class="card__social">
-                    <svg>
-                      <use xlink:href="#{{class}}"></use>
-                    </svg>
-                  </div>
-                  <div class="card__numbers">
-                      <span class="card__number">{{number}}</span>
-                      <span class="card__followers">{{text}}</span>
-                  </div>
-                  <div class="card__place">
-                    <span>{{place}}</span>
-                    <svg class="card__icon {{rotate}}">
-                      <use xlink:href="#{{arrow}}"></use>
-                    </svg>
-                  </div>
+<!-- Handlebars -->
+<script id="template" type="text/x-handlebars-template">
+  {{#each users}}
+      <div class="card">
+              <div class="card__info {{class}}">
+                <div class="card__social">
+                  <svg>
+                    <use xlink:href="#{{class}}"></use>
+                  </svg>
                 </div>
-                <div class="card__user">
-                  <div class="card__img"><img src="{{image_url}}" alt="user avatar" /></div>
-                  <div class="card__text">
-                    <h3 class="card__name">{{social}}</h3>
-                    <span class="card__mail">{{mail}}</span>
-                  </div>
+                <div class="card__numbers">
+                    <span class="card__number">{{number}}</span>
+                    <span class="card__followers">{{text}}</span>
+                </div>
+                <div class="card__place">
+                  <span>{{place}}</span>
+                  <svg class="card__icon {{rotate}}">
+                    <use xlink:href="#{{arrow}}"></use>
+                  </svg>
                 </div>
               </div>
-    {{/each}}
+              <div class="card__user">
+                <div class="card__img"><img src="{{image_url}}" alt="user avatar" /></div>
+                <div class="card__text">
+                  <h3 class="card__name">{{social}}</h3>
+                  <span class="card__mail">{{mail}}</span>
+                </div>
+              </div>
+            </div>
+  {{/each}}
 </script>
+<!-- End Handlebars -->
 
 <!-- SVG SPRITE -->
 <svg class="hidden" width="0" height="0">
@@ -212,5 +226,7 @@
   </symbol>
 </svg>
 
+<!-- Scripts -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.1.0/handlebars.min.js"></script>
 <script type="text/javascript" src="js/main.js"></script></body>
+</html>
