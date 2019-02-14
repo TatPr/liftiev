@@ -1,0 +1,50 @@
+//- Aside
+
+aside.sidebar
+    a(href="#").sidebar__logo
+        svg
+            use(xlink:href='#logo')
+    .sidebar__wrapper
+        .sidebar__user
+            .sidebar__img
+            .sidebar__text
+                h3.sidebar__name Abhisek Das
+                span.sidebar__followers 10,968 Followers
+
+        //- Navigation
+        nav.nav
+            ul.nav__list
+                li.nav__item
+                    .nav__icon
+                        svg
+                            use(xlink:href='#dashboard')
+                    a.nav__link(href="#") Dashboard
+                li.nav__item
+                    .nav__icon
+                        svg
+                            use(xlink:href='#feed')
+                    a.nav__link(href="#") Social Feed
+                li.nav__item
+                    .nav__icon
+                        svg
+                            use(xlink:href='#invite')
+                    a.nav__link(href="#") Invite Friends
+                li.nav__item
+                    .nav__icon
+                        svg
+                            use(xlink:href='#settings')
+                    a.nav__link(href="#") Settings
+                li.nav__item
+                    .nav__icon
+                        svg
+                            use(xlink:href='#logout')
+                    a.nav__link(href="#") Log Out
+
+        .sidebar__footer
+            a(href="#").sidebar__link About            
+            a(href="#").sidebar__link Terms            
+            a(href="#").sidebar__link Privacy            
+            a(href="#").sidebar__link Help            
+            a(href="#").sidebar__link Report            
+
+                                 

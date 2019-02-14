@@ -1,0 +1,80 @@
+// Sidebar
+
+.sidebar {
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    top: 0;
+    width: 20%;
+    height: 100%;
+    padding: 0 2rem;
+    margin: 0;
+    background: $sidebar-gradient;
+
+    &__logo {
+        display: block;
+        padding: 1.5rem 0;
+        width: 100%;
+        text-align: center;
+
+        svg {
+            width: 60%;  
+            height: 2rem;
+        }
+    }
+
+    &__user {
+        display: flex;
+        align-items: center;
+        padding: 3rem 0;
+    }
+
+    &__img {
+        width: 3.5rem;
+        height: 3.5rem;
+        background-image: url('../img/face4.jpg');
+        background-size: cover;
+        border: 2px solid $color-white;
+        border-radius: 50%;
+    }
+
+    &__text {
+        margin-left: .8rem;
+    }
+
+    &__name {
+        font-size: 1rem;
+        line-height: 0.8rem;
+        font-weight: 400;
+        color: $color-white;
+    }
+
+    &__followers {
+        font-size: 0.8em;
+        font-weight: 700;
+        color: rgba($color-black, .5);
+    }
+
+    &__footer {
+        flex-shrink: 1;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        padding: 2rem 0;
+        border-top: 1px solid rgba($color-black, .1);
+    }
+
+    &__link {
+        width: 33.33%;
+        text-align: center;
+        margin-bottom: 1rem;
+        font-size: 0.8rem;
+        color: $color-green--dark;
+        text-decoration: none;
+
+        &:hover {
+            text-decoration: underline;
+        }
+    }
+}
+

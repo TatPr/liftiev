@@ -1,0 +1,39 @@
+// Header
+
+.header {
+    &__wrapper {
+        padding: 2rem 2.5rem;
+        text-align: right;
+    }
+
+    &__icon {
+        position: relative;
+        display: inline-block;
+        margin-left: 2rem;
+        border: none;
+        outline: none;
+
+        svg {
+            width: 1.5rem;
+            height: 1.5rem;
+        }
+    }
+
+    &__note {
+        position: absolute;
+        top: -.5rem;
+        right: -.5rem;
+        display: block;
+        width: 1.2rem;
+        height: 1.2rem;
+        border-radius: 50%;
+        background: $color-green;
+
+        span {
+            font-size: .7rem;
+            line-height: .5rem;
+            color: $color-white;
+            @include centered;
+        }
+    }
+}

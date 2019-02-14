@@ -1,0 +1,21 @@
+// Main
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: $font-roboto;
+}
+
+img {
+    max-width: 100%;
+}
+
+// SVG Sprites
+.hidden {
+    display: none;
+}
+
